@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: disaster-portal
+  name: agile-final-lab
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: disaster-portal
+      app: agile-final-lab
   template:
     metadata:
       labels:
-        app: disaster-portal
+        app: agile-final-lab
     spec:
       containers:
-      - name: disaster-portal
-        image: nandana200621/disaster-portal:v1
+      - name: agile-final-lab
+        image: nandana200621/agile-final-lab:v1
         ports:
         - containerPort: 80
 ---
