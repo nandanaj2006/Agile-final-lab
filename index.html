@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Disaster Response Portal</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; background: #f4f6f9; }
+    h1 { color: #d9534f; }
+    table { width: 100%; border-collapse: collapse; margin-bottom: 20px; background: #fff; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+    th { background: #333; color: #fff; }
+    .alert { background: #ffcccc; color: #a94442; padding: 10px; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <h1>Disaster Response & Resource Portal</h1>
+
+  <h2>Incident Records</h2>
+  <table>
+    <tr><th>ID</th><th>Location</th><th>Category</th><th>Severity</th><th>Reported Time</th><th>Team</th><th>Status</th></tr>
+    <tr><td>INC-101</td><td>North Riverside</td><td>Flash Flood</td><td>High</td><td>08:00 AM</td><td>Rescue Team Alpha</td><td>Open</td></tr>
+    <tr><td>INC-102</td><td>East Basin</td><td>Waterlogging</td><td>Medium</td><td>08:30 AM</td><td>Rescue Team Beta</td><td>In Progress</td></tr>
+    <tr><td>INC-103</td><td>Central Market</td><td>Building Collapse</td><td>Critical</td><td>09:15 AM</td><td>Rescue Team Alpha</td><td>Open</td></tr>
+    <tr><td>INC-104</td><td>South Lowlands</td><td>Submerged Road</td><td>Low</td><td>09:40 AM</td><td>Patrol Team 1</td><td>Resolved</td></tr>
+    <tr><td>INC-105</td><td>West Canal</td><td>Bridge Breach</td><td>Critical</td><td>10:00 AM</td><td>Rescue Team Gamma</td><td>Open</td></tr>
+  </table>
+
+  <h2>Evacuation Centres</h2>
+  <table>
+    <tr><th>Centre Name</th><th>Occupancy</th><th>Available Capacity</th><th>Relief Supplies</th><th>Alert</th></tr>
+    <tr><td>Centre North</td><td>950 / 1000</td><td>50</td><td>Food, Water</td><td class="alert">CRITICAL: Occupancy > 90%</td></tr>
+    <tr><td>Centre East</td><td>400 / 800</td><td>400</td><td>Blankets, First Aid</td><td>Normal</td></tr>
+    <tr><td>Centre South</td><td>880 / 900</td><td>20</td><td>Water, Medicine</td><td class="alert">CRITICAL: Occupancy > 90%</td></tr>
+  </table>
+</body>
+</html>
