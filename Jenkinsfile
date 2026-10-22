@@ -6,7 +6,7 @@ pipeline {
     }
 
     environment {
-        DOCKER_IMAGE = "nandana200621/Agile-final-lab"
+        DOCKER_IMAGE = "nandana200621/agile-final-lab"
     }
 
     stages {
